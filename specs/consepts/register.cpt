@@ -1,0 +1,157 @@
+# Kayıt formu görüntülenir.
+* <url> URL'ini aç
+* "firstName" input alan var mı?
+* 2 saniye bekle
+
+# Ad ve soyad alanlarına geçerli karakterlerle giriş yapılır.
+* First Name'e <name> değerini gir
+* Last Name'e <surname> değerini gir
+
+# Boş bırakıldığında sistemin uyarı verdiği doğrulanır.
+* First Name'e "" değerini gir
+* Last Name'e "" değerini gir
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Sayısal ve özel karakter içeren girdilerin reddedildiği kontrol edilir.
+* First Name'e "1234" değerini gir
+* Last Name'e "!@#" değerini gir
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# E-posta alanına geçerli formatta veri girilir ve form gönderilir.
+* Email'e "test@example.com" değerini gir
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüle
+
+# Geçersiz formatta e-posta girildiğinde sistemin hata mesajı verdiği doğrulanır.
+* Email'e "yanlisformat" değerini gir
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Boş bırakıldığında sistemin zorunlu alan uyarısı gösterdiği kontrol edilir.
+* Email'e "" değerini gir
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Kullanıcı, cinsiyet seçeneklerinden birini seçer.
+* Cinsiyeti "Male" seç
+
+# Seçim yapıldığında doğru radio button’ın aktif olduğu doğrulanır.
+* Cinsiyet seçiminin "Male" olduğunu doğrula
+
+# Yanlış veri girişleri engellenmeli ve uyarı verilmelidir.
+* Cinsiyeti "" seç
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Kullanıcı, geçerli formatta numara girer ve formu gönderir.
+* Mobile'a "5051234567" değerini gir
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüle
+
+# Harf içeren ve eksik haneli numaraların reddedildiği kontrol edilir.
+* Mobile'a "abc" değerini gir
+* Mobile'a "123" değerini gir
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Boş bırakıldığında sistemin uyarı gösterdiği doğrulanır.
+* Mobile'a "" değerini gir
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Kullanıcı, geçerli tarih değerlerini girer.
+* Date of Birth alanındaki kutucuğa tıkla
+* Tarihi "01 Jan 2000" seç
+
+# Yaş sınırının altındaki kullanıcılar için sistemin uyarı verdiği doğrulanır.
+* Date of Birth alanındaki kutucuğa tıkla
+* Tarihi "01 Jan 2012" seç
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Geçmiş tarih seçiminin doğru yansıdığı kontrol edilir.
+* Date of Birth alanındaki kutucuğa tıkla
+* Tarihi "15 May 1990" seç
+
+# Ders alanına alfabetik giriş yapılır.
+* Subjects alanındaki kutucuğa tıkla
+* "Maths" değerini gir ve Enter'a basarak seç
+
+# Boş bırakıldığında sistemin hata mesajı gösterdiği doğrulanır.
+* Subjects alanındaki kutucuğa tıkla
+* "" değerini gir ve Enter'a basarak seç
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Geçersiz karakter girişlerinde (örn: !!!) sistemin uyarı verdiği kontrol edilir.
+* Subjects alanındaki kutucuğa tıkla
+* "!!!" değerini gir ve Enter'a basarak seç
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Kullanıcı bir veya birden fazla hobi seçer.
+* Hobbies alanında "Music" seç
+
+# Hiçbir seçim yapılmadan gönderme işlemi denenir.
+* Hobbies seçimlerini temizle
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Sistem zorunlu seçim uyarısı verir.
+* Zorunlu alan uyarısının görüntülendiğini doğrula
+
+# Geçerli formatta dosya seçilip yüklenir.
+* Picture alanında Dosya Seç butonuna tıkla ve "test.jpg" görselini yükle
+
+# Geçersiz formatta dosya yüklenmeye çalışıldığında hata mesajı doğrulanır.
+* Picture alanında Dosya Seç butonuna tıkla ve "script.exe" dosyasını yükle
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Dosya yüklenmeden form gönderildiğinde sistemin uyarı verdiği kontrol edilir.
+* Dosya yüklemeden Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Kullanıcı geçerli bir adres bilgisi girer.
+* Current Address alanına "İstanbul, Türkiye" değerini gir
+
+# Boş veya anlamsız karakterlerle yapılan girişlerin reddedildiği doğrulanır.
+* Current Address alanına "" değerini gir
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Kullanıcı listeden il seçimi yapar.
+* State and City alanında Select State'den <state> değerini seç
+
+# İl seçilmeden gönderim yapılmaya çalışıldığında sistem uyarı verir.
+* State and City alanında Select State'i boş bırak
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# İlçeler listelenir ve bir ilçe seçilir.
+* State and City alanında Select City'den <city> değerini seç
+
+# Seçim yapılmadığında sistem uyarı verir.
+* State and City alanında Select City'i boş bırak
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Tüm alanlar eksiksiz ve geçerli şekilde doldurulur.
+* Form tüm geçerli verilerle doldur
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüle
+
+# Modal başlığının doğru olduğu ve içerikteki bilgilerin form verisiyle eşleştiği doğrulanır.
+* Modal içeriğinde girilen verileri doğrula
+
+# Hiçbir alan doldurulmadan form gönderilmeye çalışılır.
+* Formu boş bırak
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüleyeme
+
+# Form gönderilemez, zorunlu alanlar sistem tarafından işaretlenir.
+* Zorunlu alan uyarılarının göründüğünü doğrula
+
+# Modalın açılmadığı doğrulanır.
+* Modal penceresinin açılmadığını doğrula
+
+# Sayfa yenilenir.
+* Sayfayı yenile
+
+# Tüm giriş alanlarının sıfırlandığı doğrulanır.
+* Form alanlarının boş olduğunu doğrula
+
+# Form tekrar doldurularak başarıyla gönderildiği kontrol edilir.
+* Form tüm geçerli verilerle tekrar doldur
+* Submit butonuna tıkla ve teşekkür mesajı ile formu görüntüle
+
+# Form 3 kez art arda geçerli verilerle doldurulup gönderilir.
+* Formu "3" kez doldur ve gönder
+* Her gönderim sonrası modal penceresinin açıldığını doğrula
+
+# Modal kapatıldıktan sonra dış müdahale ile tekrar açılmaya çalışılır.
+* Modalı kapat
+* JavaScript ile modalı tekrar açmayı dene
+* Modal tekrar görüntülenemez olduğunu doğrula

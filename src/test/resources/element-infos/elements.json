@@ -1,0 +1,130 @@
+[
+  {
+    "key": "FirstNameInput",
+    "value": "#firstName",
+    "type": "css",
+    "index": 0
+  },
+  {
+    "key": "LastNameInput",
+    "value": "#lastName",
+    "type": "css",
+    "index": 0
+  },
+  {
+    "key": "EmailInput",
+    "value": "#userEmail",
+    "type": "css",
+    "index": 0
+  },
+  {
+    "key": "GenderMale",
+    "value": "/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[3]/div[2]/div[1]",
+    "type": "xpath",
+    "index": 0
+  },
+  {
+    "key": "GenderFemale",
+    "value": "/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[3]/div[2]/div[2]",
+    "type": "xpath",
+    "index": 0
+  },
+  {
+    "key": "GenderOther",
+    "value": "/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[3]/div[2]/div[3]",
+    "type": "xpath",
+    "index": 0
+  },
+  {
+    "key": "MobileInput",
+    "value": "#userNumber",
+    "type": "css",
+    "index": 0
+  },
+  {
+    "key": "DateOfBirthInput",
+    "value": "#dateOfBirthInput",
+    "type": "css",
+    "index": 0
+  },
+  {
+    "key": "SubjectsInput",
+    "value": "#subjectsInput",
+    "type": "css",
+    "index": 0
+  },
+  {
+    "key": "HobbySports",
+    "value": "/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[7]/div[2]/div[1]/label",
+    "type": "xpath",
+    "index": 0
+  },
+  {
+    "key": "HobbyReading",
+    "value": "/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[7]/div[2]/div[2]/label",
+    "type": "xpath",
+    "index": 0
+  },
+  {
+    "key": "HobbyMusic",
+    "value": "/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[7]/div[2]/div[3]/label",
+    "type": "xpath",
+    "index": 0
+  },
+  {
+    "key": "UploadPictureInput",
+    "value": "#uploadPicture",
+    "type": "css",
+    "index": 0
+  },
+  {
+    "key": "CurrentAddressInput",
+    "value": "#currentAddress",
+    "type": "css",
+    "index": 0
+  },
+  {
+    "key": "StateInput",
+    "value": "/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[10]/div[2]/div/div/div[1]/div[2]/div/input",
+    "type": "xpath",
+    "index": 0
+  },
+  {
+    "key": "CityInput",
+    "value": "/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[10]/div[3]/div/div/div[1]/div[2]/div/input",
+    "type": "xpath",
+    "index": 0
+  },
+  {
+    "key": "SubmitButton",
+    "value": "#submit",
+    "type": "css",
+    "index": 0
+  },
+  {
+    "key": "CloseModalButton",
+    "value": "#closeLargeModal",
+    "type": "css",
+    "index": 0
+  },
+
+  { "key": "FirstNameInput", "value": "firstName", "type": "id" },
+  { "key": "LastNameInput", "value": "lastName", "type": "id" },
+  { "key": "EmailInput", "value": "userEmail", "type": "id" },
+  { "key": "MaleGender", "value": "//*[@for='gender-radio-1']", "type": "xpath" },
+  { "key": "FemaleGender", "value": "//*[@for='gender-radio-2']", "type": "xpath" },
+  { "key": "OtherGender", "value": "//*[@for='gender-radio-3']", "type": "xpath" },
+  { "key": "MobileInput", "value": "userNumber", "type": "id" },
+  { "key": "DateInput", "value": "dateOfBirthInput", "type": "id" },
+  { "key": "SubjectsInput", "value": "subjectsInput", "type": "id" },
+  { "key": "SportsHobby", "value": "//*[@for='hobbies-checkbox-1']", "type": "xpath" },
+  { "key": "ReadingHobby", "value": "//*[@for='hobbies-checkbox-2']", "type": "xpath" },
+  { "key": "MusicHobby", "value": "//*[@for='hobbies-checkbox-3']", "type": "xpath" },
+  { "key": "UploadPicture", "value": "uploadPicture", "type": "id" },
+  { "key": "CurrentAddress", "value": "currentAddress", "type": "id" },
+  { "key": "StateInput", "value": "//*[@id='state']//input", "type": "xpath" },
+  { "key": "CityInput", "value": "//*[@id='city']//input", "type": "xpath" },
+  { "key": "SubmitButton", "value": "submit", "type": "id" },
+  { "key": "CloseModalButton", "value": "closeLargeModal", "type": "id" }
+]
+
